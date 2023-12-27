@@ -224,13 +224,13 @@ section img {
 .summary {
   border-radius: 15px;
   max-width: 32vw;
-  background: linear-gradient(90deg, rgba(194,179,201,1) 0%, rgba(40,20,40,1) 98%);
+  background: linear-gradient(90deg, rgb(128, 95, 144) 0%, rgba(40,20,40,1) 98%);
   margin-right: 10px;
   padding-left: 20px;
   padding-right: 15%;
   min-height: 200px;
   min-width: 200px;
-  
+  color: rgba(194,179,201,1);
    overflow: auto;
 }
 
@@ -320,9 +320,9 @@ section div a button:hover {
 }
 /* article Über mich*/
 .outline_2 {
-  background-color: rgba(194,179,201,1);
+  background-color: rgb(128, 95, 144);
   border-width: 3px;
-  border-color:rgba(194,179,201,1);
+  border-color:rgb(128, 95, 144);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   border-style: solid solid solid none;
