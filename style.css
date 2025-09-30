@@ -112,6 +112,7 @@ li {
 .row {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .column {
@@ -390,8 +391,6 @@ section div a button:hover {
   position: relative;
   left: -20px;
   overflow: auto;
-
-
 }
 .outline {
   border-width: 3px;
@@ -433,6 +432,10 @@ section div a button:hover {
   min-height: fit-content;
 }
 
+.outline, .outline_2, .outline_3, .outline_4 {
+  flex-grow: 100;
+}
+
 .list li{
   list-style-type:'- ';
   font-weight: 400;
@@ -458,9 +461,10 @@ section div a button:hover {
 
 /* img css */
 .img_quadrat_2 {
-  width: 15vw;
+  width: 15rem;
   object-fit: cover;
   z-index: 5;
+  max-width: 50vw;
 }
 .img_quadrat {
   width: 20vw;
