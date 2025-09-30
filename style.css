@@ -465,8 +465,7 @@ justify-content: space-between;
 }
 
 video {
-height: 30vh;
-margin-bottom: 3.5vh;
+margin-bottom: 2rem;
 display: flex;
 justify-content: flex-start;
 align-items: flex-start;
