@@ -206,7 +206,7 @@ main {
 article {
   max-width: 90%;
   width: 35rem;
-  
+  margin: auto;
 }
 
 img {
