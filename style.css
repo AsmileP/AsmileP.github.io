@@ -218,7 +218,7 @@ section {
   flex-direction: row;
   position: relative;
   z-index: 1;
-  margin: 40px -10px;
+  margin: calc(40px - 1rem) -1rem;
   flex-wrap: wrap;
 }
 
@@ -229,6 +229,7 @@ section img {
 section > * {
   margin: 10px;
   max-height: 45vh;
+  flex-grow: 100;
 }
 
 * {
@@ -241,7 +242,7 @@ section > * {
   padding-left: 20px;
   padding-right: 15%;
   overflow: hidden scroll;
-  width: calc((100% - 6rem) * 0.4);
+  width: calc((100% - 4rem) * 0.45);
 }
 
 .picture2 {
@@ -251,9 +252,7 @@ flex-direction: column;
 
 .img_hochformat {
   height: 42vh;
-  width: 15vw;
   object-fit: cover;
-
   min-height: 200px;
 }
 
@@ -273,6 +272,10 @@ border-radius: 15px;
 
 .filled > img, .filled > .picture2 {
   width: calc((100% - 4rem) * 0.3);
+}
+
+.filled > .picture2 {
+  width: calc((100% - 4rem) * 0.25);
 }
 
 @media only screen and (max-width: 900px) {
@@ -466,7 +469,6 @@ section div a button:hover {
   max-width: 50vw;
 }
 .img_quadrat {
-  width: 20vw;
   height: 34vh;
   object-fit: cover;
 
@@ -474,7 +476,6 @@ section div a button:hover {
   min-height: 150px;
 }
 .img_quadrat_small {
-  width: 100%;
   height: 34vh;
   object-fit: cover;
 
