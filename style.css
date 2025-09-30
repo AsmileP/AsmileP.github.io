@@ -247,7 +247,6 @@ section > * {
 .picture2 {
 display: flex;
 flex-direction: column;
-justify-content: space-between;
 }
 
 .img_hochformat {
@@ -269,22 +268,22 @@ border-radius: 15px;
 .picture3 {
   display: flex;
   flex-direction: column;
-  width: calc((100% - 6rem) * 0.6);
+  width: calc((100% - 4rem) * 0.6);
 }
 
 .filled > img, .filled > .picture2 {
-  width: calc((100% - 6rem) * 0.3);
+  width: calc((100% - 4rem) * 0.3);
 }
 
 @media only screen and (max-width: 900px) {
   .summary {
-    width: calc((100% - 4rem) * 1);
+    width: calc((100% - 3rem) * 1);
   }
   .filled > img, .filled > .picture2 {
-    width: calc((100% - 4rem) * 0.5);
+    width: calc((100% - 3rem) * 0.5);
   }
   .picture3 {
-    width: calc((100% - 4rem) * 0.5);
+    width: calc((100% - 3rem) * 0.5);
   }
 }
 
@@ -295,7 +294,7 @@ a button img {
 }
 
 .picture2 > a {
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 
 section div a button {
