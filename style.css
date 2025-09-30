@@ -247,7 +247,7 @@ section > * {
   .summary {
     width: calc((100% - 4rem) * 1);
   }
-  .filled > img, .filled > picture2 {
+  .filled > img, .filled > .picture2 {
     width: calc((100% - 4rem) * 0.3);
   }
   .picture3 {
@@ -255,7 +255,7 @@ section > * {
   }
 }
 
-.filled > img, .filled > picture2 {
+.filled > img, .filled > .picture2 {
   width: calc((100% - 4rem) * 0.3);
 }
 
