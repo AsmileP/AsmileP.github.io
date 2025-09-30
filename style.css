@@ -205,7 +205,7 @@ main {
 
 article {
   max-width: 90%;
-  width: 35rem;
+  width: 50rem;
   margin: auto;
 }
 
@@ -230,26 +230,39 @@ section > * {
   max-height: 45vh;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .summary {
   border-radius: 15px;
-  max-width: 32vw;
   background: linear-gradient(90deg, rgba(194,179,201,1) 0%, rgba(40,20,40,1) 98%);
   padding-left: 20px;
   padding-right: 15%;
-  min-height: 200px;
-  min-width: 200px;
-   overflow: auto;
-  width: calc((100% - 4rem) * 0.25);
+  overflow: hidden scroll;
+  width: calc((100% - 4rem) * 0.4);
+}
+
+@media only screen and (max-width: 20rem) {
+  summary {
+    width: calc((100% - 4rem) * 1);
+  }
+  .filled > img, .filled > picture2 {
+    width: calc((100% - 4rem) * 0.3);
+  }
 }
 
 .filled > img, .filled > picture2 {
-  width: calc((100% - 4rem) * 0.375);
+  width: calc((100% - 4rem) * 0.3);
 }
 
 a button img {
   height: 40px;
   width: 40px;
   box-shadow: none;
+}
+
+.picture2 > a {
   margin-top: 10px;
 }
 
@@ -371,7 +384,6 @@ section div a button:hover {
   z-index: 1;
   height: auto;
   min-width: fit-content;
-  margin-left:20px;
   overflow: auto;
 
 }
@@ -436,7 +448,6 @@ section div a button:hover {
 }
 
 .picture2 {
-margin-left: 20px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -460,7 +471,6 @@ border-radius: 15px;
 }
 
 .picture3 {
-margin-left: 20px;
 display: flex;
 flex-direction: column;
 }
