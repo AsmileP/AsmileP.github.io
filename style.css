@@ -215,8 +215,6 @@ img {
 section {
   display: flex;
   flex-direction: row;
-  max-width: 70vw;
-  max-height: 45vh;
   position: relative;
   z-index: 1;
   margin: 40px -10px;
@@ -229,6 +227,7 @@ section img {
 
 section > * {
   margin: 10px;
+  max-height: 45vh;
 }
 
 .summary {
