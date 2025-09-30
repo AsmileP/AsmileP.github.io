@@ -203,6 +203,11 @@ main {
 
 /* article Projekte*/
 
+article {
+  max-width: 90%;
+  width: 35rem;
+  
+}
 
 img {
     border-radius: 15px;
@@ -211,33 +216,42 @@ section {
   display: flex;
   flex-direction: row;
   max-width: 70vw;
-  margin: 50px auto;
   max-height: 45vh;
   position: relative;
   z-index: 1;
+  margin: 40px -10px;
+  flex-wrap: wrap;
 }
 
 section img {
   object-fit: cover;
 }
 
+section > * {
+  margin: 10px;
+}
+
 .summary {
   border-radius: 15px;
   max-width: 32vw;
   background: linear-gradient(90deg, rgba(194,179,201,1) 0%, rgba(40,20,40,1) 98%);
-  margin-right: 10px;
   padding-left: 20px;
   padding-right: 15%;
   min-height: 200px;
   min-width: 200px;
-  
    overflow: auto;
+  width: calc((100% - 4rem) * 0.25);
+}
+
+.filled > img, .filled > picture2 {
+  width: calc((100% - 4rem) * 0.375);
 }
 
 a button img {
   height: 40px;
   width: 40px;
   box-shadow: none;
+  margin-top: 10px;
 }
 
 section div a button {
