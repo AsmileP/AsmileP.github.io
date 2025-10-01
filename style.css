@@ -286,6 +286,13 @@ border-radius: 15px;
   position: relative;
 }
 
+.outline_4 > .row {
+  margin: -1rem;
+}
+.outline_4 > .row > * {
+  margin: 1rem;
+}
+
 @media only screen and (max-width: 900px) {
   .summary {
     width: calc((100% - 3rem) * 1);
@@ -301,6 +308,10 @@ border-radius: 15px;
   }
   .outline_4 > .row {
     flex-direction: column;
+    margin: -0.5rem;
+  }
+  .outline_4 > .row > * {
+    margin: 0.5rem;
   }
 }
 
