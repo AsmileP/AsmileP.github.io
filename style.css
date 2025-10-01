@@ -60,7 +60,8 @@ p {
   margin: 5px 0px;
 }
 .spread{
-text-align:justify-all;
+  text-align:justify-all;
+  width: max-content;
 }
 .space{
   width: 15px;
@@ -230,6 +231,10 @@ section > * {
   margin: 10px;
   max-height: 45vh;
   flex-grow: 100;
+}
+
+.section_2 > * {
+  max-height: unset;
 }
 
 * {
