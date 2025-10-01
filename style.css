@@ -231,6 +231,7 @@ section > * {
   margin: 10px;
   max-height: 45vh;
   flex-grow: 100;
+  width: calc(100% - 2rem);
 }
 
 .section_2 > * {
