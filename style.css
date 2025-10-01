@@ -488,3 +488,6 @@ section div a button:hover {
     object-fit: cover;
     position: absolute;
 }
+img.left {
+  object-position: left;
+}
